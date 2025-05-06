@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DreamCanvas AI - Create Beautiful AI-Generated Images</title>
+    <meta name="description" content="Transform your ideas into stunning images with DreamCanvas AI. Create beautiful AI-generated artwork with just a text prompt.">
+    <meta name="keywords" content="AI, image generator, artificial intelligence, text to image, AI art">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="DreamCanvas AI - Create Beautiful AI-Generated Images">
+    <meta property="og:description" content="Transform your ideas into stunning images with DreamCanvas AI.">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="DreamCanvas AI - Create Beautiful AI-Generated Images">
+    <meta property="twitter:description" content="Transform your ideas into stunning images with DreamCanvas AI.">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="alternate icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <i class="fas fa-paint-brush"></i>
+                <h1>DreamCanvas AI</h1>
+            </div>
+            <p class="tagline">Transform your ideas into stunning images</p>
+        </div>
+
+        <div class="input-group">
+            <input type="text" id="promptInput" placeholder="Describe the image you want to create...">
+            <button id="generateButton" type="button"><i class="fas fa-magic"></i> Generate</button>
+        </div>
+
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <span>Creating your masterpiece...</span>
+        </div>
+
+        <div id="imageContainer"></div>
+
+        <div class="error" id="error"></div>
+
+        <footer class="footer">
+            <p>&copy; 2025 Critical Future. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#" title="About"><i class="fas fa-info-circle"></i></a>
+                <a href="#" title="Privacy Policy"><i class="fas fa-shield-alt"></i></a>
+                <a href="#" title="Terms of Service"><i class="fas fa-file-contract"></i></a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

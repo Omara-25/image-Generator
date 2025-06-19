@@ -1,5 +1,5 @@
 const generateButton = document.getElementById('generateButton');
-const apiUrl = 'https://web-production-fffaa.up.railway.app';
+const apiUrl = 'https://image-generation-production-de983.up.railway.app/';
 let currentImageBlob = null;
 
 // Function to handle Enter key press in the input field
